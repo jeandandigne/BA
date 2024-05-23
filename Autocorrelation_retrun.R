@@ -1,7 +1,7 @@
 rm(list=setdiff(ls(), c("jb_results_df","summary_table")))
 options(scipen = 999, digits = 3)
 
-# Load necessary libraries
+
 library(quantmod)
 library(ggplot2)
 library(ggfortify)
